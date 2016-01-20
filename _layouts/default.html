@@ -3,17 +3,17 @@
 
   {% include head.html %}
 
-  <body>
+  <body id="top">
 
     {% include header.html %}
 
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
+
+        {% include footer.html %}
       </div>
     </div>
-
-    {% include footer.html %}
 
     <div id="modal" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg">
