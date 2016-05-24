@@ -1,8 +1,40 @@
-.carousel-inner > .item > img {
+/*.carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 100%!important!;
+/*  height: 100%!important!;
+}*/
 
+.item.active#main {
+  background: #777 url("/img/niko-grass-banner.jpg") no-repeat fixed center;
+
+}
+
+.center {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .center {
+    width: 710px;
+    /*margin-left: 5%;
+    margin-right: 5%;*/
+  }
+}
+@media (min-width: 992px) {
+  .center {
+    width: 930px;
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+  }
+}
+@media (min-width: 1200px) {
+  .center {
+    width: 1140px;
+    /*margin-left: 15%;
+    margin-right: 15%;*/
+  }
 }
