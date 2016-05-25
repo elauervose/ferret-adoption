@@ -17,3 +17,13 @@ layout: default
 
 
   <!-- /END THE FEATURETTES -->
+
+  <script>
+      document.getElementByClassName('quantumWizButtonPaperbuttonEl quantumWizButtonPaperbuttonFlat quantumWizButtonPaperbutton2El2 freebirdFormviewerViewNavigationNoSubmitButton isUndragged').addEventListener('click',function (e) {
+          newrelic.addPageAction('clickedFormNext');
+      })
+
+      document.getElementByClassName('quantumWizButtonPaperbuttonEl quantumWizButtonPaperbuttonFlat quantumWizButtonPaperbuttonDark quantumWizButtonPaperbutton2El2 freebirdFormviewerViewNavigationSubmitButton isUndragged').addEventListener('click',function (e) {
+          newrelic.addPageAction('clickedFormNext');
+      })
+  </script>
