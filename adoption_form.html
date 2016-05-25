@@ -19,11 +19,11 @@ layout: default
   <!-- /END THE FEATURETTES -->
 
   <script>
-      document.getElementByClassName('quantumWizButtonPaperbuttonEl quantumWizButtonPaperbuttonFlat quantumWizButtonPaperbutton2El2 freebirdFormviewerViewNavigationNoSubmitButton isUndragged').addEventListener('click',function (e) {
-          newrelic.addPageAction('clickedFormNext');
-      })
+    document.getElementsByClassName('freebirdFormviewerViewNavigationNoSubmitButton').addEventListener('click',function (e) {
+          newrelic.addPageAction('clickedfreebirdFormviewerViewNavigationNoSubmitButton');
+    })
 
-      document.getElementByClassName('quantumWizButtonPaperbuttonEl quantumWizButtonPaperbuttonFlat quantumWizButtonPaperbuttonDark quantumWizButtonPaperbutton2El2 freebirdFormviewerViewNavigationSubmitButton isUndragged').addEventListener('click',function (e) {
-          newrelic.addPageAction('clickedFormNext');
-      })
+    document.getElementsByClassName('freebirdFormviewerViewNavigationSubmitButton').addEventListener('click',function (e) {
+          newrelic.addPageAction('clickedfreebirdFormviewerViewNavigationSubmitButton');
+    })
   </script>
