@@ -7,7 +7,8 @@
 }*/
 
 .item.active#main {
-  background: #777 url("/img/niko-grass-banner.jpg") no-repeat fixed center;
+  background: #E7E7E7 url("/img/niko-grass-banner.jpg") no-repeat fixed top;
+  width: 100%;
 
 }
 
